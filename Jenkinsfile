@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     tools {
-    jdk 'java 17'
+    jdk 'JDK17'
     }
     environment {
         SONARQUBE_SERVER = 'SonarQubeServer'
