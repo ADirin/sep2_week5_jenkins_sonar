@@ -3,9 +3,9 @@ pipeline {
 
     environment {
         SONARQUBE_SERVER = 'SonarQubeServer'
-        SONAR_TOKEN = 'sqa_a16db84c9a0a15be9209babf3a2636b0f73021b6'
+        SONAR_TOKEN = 'sqa_076257ddda8af60624186f7e48721a983697f759' //make sure a right token is selected
         DOCKERHUB_CREDENTIALS_ID = 'Docker_Hub'
-        DOCKERHUB_REPO = 'amirdirin/sonarfiletest'
+        DOCKERHUB_REPO = 'amirdirin/sep2_week5_jenkins_sonar'
         DOCKER_IMAGE_TAG = 'latest'
     }
 
